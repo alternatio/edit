@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	letter-spacing: -0.06em;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+*::-webkit-scrollbar {
+	width: 0.5rem;
+	background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: #444;
+}
+
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+input[type='text'] {
+	width: 100%;
+	border-radius: 0.5rem;
+	background: #222;
+	padding: 0.5rem;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 0.8rem;
+	font-family: sans-serif;
+}
+
+button {
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	background: #222;
+	border: none;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-weight: 600;
+	font-family: sans-serif;
+	cursor: pointer;
+}

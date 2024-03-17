@@ -1,0 +1,54 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	background: #181818;
+	border-radius: 1.2rem;
+	width: min(100%, 32rem);
+	height: 100%;
+	color: #fff;
+	padding: 1rem;
+	overflow: hidden auto;
+}
+
+.description,
+.description * {
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: #808080;
+	text-align: center;
+}
+
+.accent {
+	color: #a84;
+}
+
+.param {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+.paramName {
+	width: 100%;
+	font-size: 1rem;
+}
+
+.paramValues {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	width: 100%;
+}
+
+.paramValue {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.25rem;
+}
+
+.saveButton {
+}
