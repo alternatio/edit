@@ -79,11 +79,12 @@ export default function ParamEditor({ params, model }: Props) {
 				)
 
 				return (
-					<div className={style.param}>
+					<div key={param.id} className={style.param}>
 						<span className={style.paramName}>{param.name}</span>
 						<div className={style.paramValues}>
 							{paramValue && (
 								<ParamValue
+									key={`${paramValue.paramId}-${Math.random()}`}
 									paramValue={paramValue}
 									store={store}
 									setStore={setStore}
